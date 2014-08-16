@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B03C8224-3F61-457F-AE07-1B90EB3E7D88</string>
+	<string>C064895B-BED8-477C-B5C9-3356F52D0B6C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MoonRunner</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>775CE9DA-56E0-403D-80BE-C0BF71B3067D</key>
-		<string>ssh://github.com/mluedke2/moonrunner.git</string>
+		<key>D608075C-331F-43B5-97C8-8866F300EA1E</key>
+		<string>ssh://github.com/C-anuj/runner.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MoonRunner.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>775CE9DA-56E0-403D-80BE-C0BF71B3067D</key>
+		<key>D608075C-331F-43B5-97C8-8866F300EA1E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/mluedke2/moonrunner.git</string>
+	<string>ssh://github.com/C-anuj/runner.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>775CE9DA-56E0-403D-80BE-C0BF71B3067D</string>
+	<string>D608075C-331F-43B5-97C8-8866F300EA1E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>775CE9DA-56E0-403D-80BE-C0BF71B3067D</string>
+			<string>D608075C-331F-43B5-97C8-8866F300EA1E</string>
 			<key>IDESourceControlWCCName</key>
-			<string>RunmasterGeneral</string>
+			<string>runner</string>
 		</dict>
 	</array>
 </dict>

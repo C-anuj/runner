@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		757435A1199E514200124D94 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 757435A0199E514200124D94 /* FacebookSDK.framework */; };
 		FA0B80C01939189600CDCA53 /* MulticolorPolylineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0B80BF1939189600CDCA53 /* MulticolorPolylineSegment.m */; };
 		FA0CFA8A192C734000973491 /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = FA0CFA89192C734000973491 /* success.wav */; };
 		FA0CFA8D192C771900973491 /* MathController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0CFA8C192C771900973491 /* MathController.m */; };
@@ -82,6 +83,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		757435A0199E514200124D94 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		FA0B80BE1939189600CDCA53 /* MulticolorPolylineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MulticolorPolylineSegment.h; sourceTree = "<group>"; };
 		FA0B80BF1939189600CDCA53 /* MulticolorPolylineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MulticolorPolylineSegment.m; sourceTree = "<group>"; };
 		FA0CFA89192C734000973491 /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1F950D1929CF2600A0179A /* CoreGraphics.framework in Frameworks */,
+				757435A1199E514200124D94 /* FacebookSDK.framework in Frameworks */,
 				FA1F95111929CF2600A0179A /* CoreData.framework in Frameworks */,
 				FA1F950F1929CF2600A0179A /* UIKit.framework in Frameworks */,
 				FA1F950B1929CF2600A0179A /* Foundation.framework in Frameworks */,
@@ -221,6 +224,7 @@
 		FA1F95091929CF2600A0179A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				757435A0199E514200124D94 /* FacebookSDK.framework */,
 				FA1F950A1929CF2600A0179A /* Foundation.framework */,
 				FA1F950C1929CF2600A0179A /* CoreGraphics.framework */,
 				FA1F950E1929CF2600A0179A /* UIKit.framework */,
@@ -618,10 +622,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoonRunner/MoonRunner-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "MoonRunner/MoonRunner-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = MoonRunner;
 				WRAPPER_EXTENSION = app;
 			};
@@ -632,10 +641,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MoonRunner/MoonRunner-Prefix.pch";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "MoonRunner/MoonRunner-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = MoonRunner;
 				WRAPPER_EXTENSION = app;
 			};

@@ -1,4 +1,4 @@
-moonrunner
+moonrunner=
 ==========
 
 MoonRunner is a template GPS run tracking app for iOS
